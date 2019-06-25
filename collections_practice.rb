@@ -42,6 +42,8 @@ end
 
 
 def add_s(array)
-  array[0..3].each_with_index.collect{|element, index| element.concat("s")}
+  array[0..3].each_with_index.collect{|element, index|
+  if array[index] = 0 || array[index] > 1
+    element.concat("s")}
   array
 end
