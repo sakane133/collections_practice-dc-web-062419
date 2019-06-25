@@ -42,6 +42,6 @@ end
 
 
 def add_s(array)
-  array[2,3].each_with_index.collect{|element, index| element.concat("s")}
+  array[0,1,2,3].each_with_index.collect{|element, index| element.concat("s")}
   array
 end
