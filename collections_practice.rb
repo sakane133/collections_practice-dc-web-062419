@@ -1,6 +1,6 @@
 sort_array_asc(array)
 new_array = []
- array.map |x, y|
+ array.map |k, v|
  x.sort {|x, y| y <=> x}
   new_array << x
 end
