@@ -47,3 +47,4 @@ def add_s(array)
     element.concat("s")
   array
 end
+end
