@@ -1,4 +1,4 @@
 sort_array_asc(array)
- array.sort |num|
+ array.sort()
  end
 end
