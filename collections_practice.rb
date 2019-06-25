@@ -31,7 +31,7 @@ end
 
 def find_a(array)
   array.select do |word|
-    word.start_with?("a")
-    array
+    new_array = word.start_with?("a")
+    new_array
   end
 end
