@@ -42,7 +42,7 @@ end
 
 
 def add_s(array)
-  array[1,2].each_with_index.collect do |element, index|
+  array[1,3].each_with_index.collect do |element, index|
     element.concat("s")
 end
 array
